@@ -1,0 +1,25 @@
+/** @format */
+
+.list {
+  width: 90%;
+  display: grid;
+  grid-gap: 5px;
+  margin: auto;
+  position: absolute;
+  position: relative;
+}
+.list_card {
+  width: 100%;
+  background: #fff;
+  display: flex;
+}
+.list_card img {
+  width: 15%;
+  margin: 2vw 5vw 2vw 32vw;
+}
+.list_card p {
+  text-transform: lowercase;
+  font-family: "Comfortaa", cursive;
+  color: rgb(207, 207, 207);
+  padding-top: 8vw;
+}

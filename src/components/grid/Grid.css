@@ -1,0 +1,26 @@
+/** @format */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+.grid_card {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.grid_card img {
+  width: 50%;
+  margin: 10px 0;
+}
+.grid_card p {
+  text-transform: lowercase;
+  font-family: "Comfortaa", cursive;
+  color: rgb(207, 207, 207);
+}

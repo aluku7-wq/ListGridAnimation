@@ -1,0 +1,30 @@
+/** @format */
+
+.Navbar {
+  width: 90%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  margin: auto;
+}
+.logo {
+  font-family: "aclonica", cursive;
+  font-weight: lighter;
+  text-transform: lowercase;
+  font-size: 20px;
+  display: flex;
+  align-items: baseline;
+}
+.logo p {
+  color: #000;
+  padding-top: 10px;
+}
+
+.icon {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 7.5px;
+}
